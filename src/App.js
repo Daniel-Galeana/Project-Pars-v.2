@@ -7,17 +7,19 @@ import UbicacionEvento from "./components/UbicacionEvento/UbicacionEvento.compon
 import FechaEvento from "./components/FechaEvento/FechaEvento.component";
 import HorasEvento from "./components/HorasEvento/HorasEvento.component";
 import PersonasEvento from "./components/PersonasEvento/PersonasEvento.component";
+import ResultEvento from "./components/ResultEvento/ResultEvento.component"
 
 function App() {
   return (
     <Fragment>
-      <LugarEvento />
+      {/* <LugarEvento />
       <TipoEvento />
       <GastosEvento />
       <UbicacionEvento />
       <FechaEvento />
       <HorasEvento />
-      <PersonasEvento />
+      <PersonasEvento /> */}
+      <ResultEvento />
     </Fragment>
   );
 }
